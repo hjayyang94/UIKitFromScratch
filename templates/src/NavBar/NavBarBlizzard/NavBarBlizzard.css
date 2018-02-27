@@ -1,0 +1,47 @@
+.NavBarBlizzard{
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.5)
+}
+
+.NavBarItems{
+    position: absolute;
+    display: inline-block;
+    left: 20px;
+    height: 100%;
+    
+    
+}
+
+.Items{
+    margin-left: 10px;
+    padding-top: 13px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 30px;
+    font-weight: bold;
+    box-sizing: border-box;
+    height: 100%;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    color: rgb(46, 39, 30);
+
+}
+
+.NavBarContactItems{
+    display: inline-block;
+    position: absolute;
+    right: 20px;
+    top:-5px;
+    height: 100%;
+}
+
+.ContactItems{
+    box-sizing: border-box;
+    height: 120%;
+    display: inline-block;
+}
+
+.linkLogo{
+    height: 100%;
+}
