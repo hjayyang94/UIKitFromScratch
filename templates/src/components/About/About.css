@@ -1,0 +1,46 @@
+.Photo{
+    position: relative;
+    transform: rotate(-90deg);
+    max-height: 300px;
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.PhotoDiv{
+    
+    margin-bottom: 90px;
+    max-width: 700px;
+
+    
+}
+
+.About{
+    text-align: center;
+    margin: auto;
+    
+}
+
+.Paragraph{
+    margin: 20px;
+}
+
+
+
+.Intro{
+    position: relative;
+    max-width: 400px;
+    margin: auto;
+    bottom: 0px;
+}
+
+.IntroDiv{
+    background-color: rgba(255, 255, 255, 0.75);
+    height: auto;
+    padding-top: 100px;
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: inline-block;
+    border-radius: 8px;
+}

@@ -1,15 +1,32 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { BrowswerRouter, BrowserRouter } from 'react-router-dom';
+import {
+    BrowserRouter as Router,
+    Route,
+    Link
+  } from 'react-router-dom'
 
 import './index.css';
 import App from './App';
 import registerServiceWorker from './registerServiceWorker';
 
+import About from './components/About/About';
+import Projects from './components/Projects/Projects';
+
+const backgroundStyle = {
+  backgroundImage: "url('background.jpg')",
+  backgroundSize: "cover",
+};
+
 const app = (
-    <BrowserRouter>
-        <App />
-    </BrowserRouter>
+    <Router>
+        <div style={backgroundStyle}>
+            <Route path='/' component={App} />
+            <Route exact path='/' component={About} />
+            <Route path='/projects' component={Projects} />
+          
+        </div>
+    </Router>
 )
 
 ReactDOM.render(app, document.getElementById('root'));

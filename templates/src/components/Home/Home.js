@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import "./Home.css";
 import Navbar from '../NavBar/NavBarBlizzard/NavBarBlizzard';
-import Content from '../Content/About/About';
+import Content from '../About/About';
 
-var backgroundStyle = {
+const backgroundStyle = {
     backgroundImage: "url('background2.jpg')",
     backgroundSize: "cover"
 
