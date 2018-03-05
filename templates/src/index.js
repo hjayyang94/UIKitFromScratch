@@ -12,6 +12,7 @@ import registerServiceWorker from './registerServiceWorker';
 
 import About from './components/About/About';
 import Projects from './components/Projects/Projects';
+import Contact from './components/Contact/Contact';
 
 const backgroundStyle = {
   backgroundImage: "url('background.jpg')",
@@ -24,7 +25,7 @@ const app = (
             <Route path='/' component={App} />
             <Route exact path='/' component={About} />
             <Route path='/projects' component={Projects} />
-          
+            <Route path='/contact' component={Contact} />
         </div>
     </Router>
 )

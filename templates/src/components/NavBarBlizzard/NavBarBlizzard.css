@@ -12,12 +12,18 @@
     display: inline-block;
     left: 20px;
     height: 100%;
-    
-    
+}
+
+.NavBarItemsSmall{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    margin: auto;
 }
 
 .Items{
-    margin-left: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
     padding-top: 13px;
     padding-left: 10px;
     padding-right: 10px;
@@ -29,7 +35,11 @@
     text-decoration: none;
     cursor: pointer;
     color: rgb(46, 39, 30);
+}
 
+.Small{
+    padding-top: 20px;
+    font-size: 20px;
 }
 
 .NavBarContactItems{
@@ -40,12 +50,32 @@
     height: 100%;
 }
 
+.NavBarContactItemsSmall{
+    position: absolute;
+    height: 70%;
+    right: 3%;
+    bottom: 12.5px;
+}
+
 .ContactItems{
     box-sizing: border-box;
     height: 120%;
     display: inline-block;
 }
 
+.ContactItemsSmall{
+    box-sizing: border-box;
+    height: 120%;
+    display: inline-block;
+    right: -10px;
+}
+
 .linkLogo{
     height: 100%;
 }
+
+.linkSmall{
+    
+    height: 100%;
+}
+
